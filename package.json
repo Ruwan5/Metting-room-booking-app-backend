@@ -2,9 +2,7 @@
   "name": "project",
   "version": "1.0.0",
   "description": "",
-  "engines": {
-    "node": "12.11.1"
-  },
+
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -19,5 +17,10 @@
     "express": "^4.16.3",
     "mongodb": "^3.6.6",
     "mongoose": "^5.1.2"
+  },
+
+  "engines": {
+    "node": "~8.9.1",
+    "npm": "~6.0.0"
   }
 }
